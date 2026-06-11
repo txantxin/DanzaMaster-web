@@ -1,22 +1,9 @@
-# Danza Master Web - versión con logo y capturas
+# Danza Master Web - versión 3
 
-Web informativa inicial de Danza Master preparada para GitHub Pages.
+Cambios principales de esta versión:
 
-## Incluye
-
-- `index.html`: portada principal.
-- `ayuda.html`: página de ayuda básica.
-- `estilos.css`: estilos visuales.
-- `script.js`: botón para volver arriba.
-- `imagenes/`: logotipos y capturas.
-
-## Novedades de esta versión
-
-- Se ha sustituido el bloque DM por logotipo real.
-- Se ha añadido una sección de capturas.
-- Las capturas se presentan como hojas superpuestas.
-- Se ha incluido una captura completa y un recorte de detalle.
-
-## Publicación
-
-Sube todos los archivos y carpetas a la raíz del repositorio `DanzaMaster-web`.
+- Se mantiene el encabezado tal como estaba.
+- Se mejora el texto principal del bloque inicial.
+- Se elimina el recuadro del icono grande.
+- El icono aparece directamente sobre el fondo de la página.
+- Se conserva la sección de capturas y la estructura general.
