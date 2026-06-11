@@ -1,26 +1,22 @@
-# Danza Master Web
+# Danza Master Web - versión con logo y capturas
 
 Web informativa inicial de Danza Master preparada para GitHub Pages.
 
-## Archivos incluidos
+## Incluye
 
-- `index.html`: página principal.
+- `index.html`: portada principal.
 - `ayuda.html`: página de ayuda básica.
-- `estilos.css`: estilos visuales de la web.
+- `estilos.css`: estilos visuales.
 - `script.js`: botón para volver arriba.
-- `README.md`: descripción del repositorio.
+- `imagenes/`: logotipos y capturas.
 
-## Publicación en GitHub Pages
+## Novedades de esta versión
 
-Subir estos archivos a la raíz del repositorio `DanzaMaster-web`.
+- Se ha sustituido el bloque DM por logotipo real.
+- Se ha añadido una sección de capturas.
+- Las capturas se presentan como hojas superpuestas.
+- Se ha incluido una captura completa y un recorte de detalle.
 
-Después, en GitHub:
+## Publicación
 
-1. Entrar en `Settings`.
-2. Entrar en `Pages`.
-3. Source: `Deploy from a branch`.
-4. Branch: `main`.
-5. Folder: `/root`.
-6. Guardar.
-
-La web quedará publicada en la dirección de GitHub Pages del repositorio.
+Sube todos los archivos y carpetas a la raíz del repositorio `DanzaMaster-web`.

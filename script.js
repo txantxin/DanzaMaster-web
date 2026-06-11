@@ -9,8 +9,5 @@ window.addEventListener("scroll", () => {
 });
 
 botonSubir?.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });

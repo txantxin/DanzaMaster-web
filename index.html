@@ -10,47 +10,41 @@
 <body>
   <header class="cabecera">
     <div class="contenedor cabecera-contenido">
-      <div class="marca">
-        <div class="logo-texto">DM</div>
-        <div>
-          <h1>Danza Master</h1>
-          <p>Gestión para academias de danza</p>
-        </div>
-      </div>
+      <a class="marca" href="#inicio" aria-label="Inicio Danza Master">
+        <img src="imagenes/logo-danzamaster-horizontal-recortado.png" alt="Danza Master">
+      </a>
 
       <nav class="menu" aria-label="Menú principal">
         <a href="#programa">Programa</a>
+        <a href="#capturas">Capturas</a>
         <a href="#modulos">Módulos</a>
-        <a href="#ayuda">Ayuda</a>
-        <a href="#contacto">Contacto</a>
+        <a href="ayuda.html">Ayuda</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="inicio">
     <section class="hero">
       <div class="contenedor hero-contenido">
         <div class="hero-texto">
-          <p class="etiqueta">Aplicación de escritorio</p>
-          <h2>Un programa pensado para organizar una academia de danza de forma clara y práctica.</h2>
+          <p class="etiqueta">Programa de gestión</p>
+          <h1>Danza Master</h1>
+          <h2>Una herramienta pensada para la organización diaria de academias de danza.</h2>
           <p>
-            Danza Master centraliza la gestión de alumnos, clases, profesorado, economía,
-            documentos, asistencia y copias de seguridad en una única herramienta.
+            Danza Master centraliza alumnos, clases, profesorado, economía, asistencia,
+            documentos y copias de seguridad en una sola aplicación.
           </p>
+
           <div class="acciones">
-            <a class="boton principal" href="#programa">Ver resumen</a>
+            <a class="boton principal" href="#capturas">Ver capturas</a>
             <a class="boton secundario" href="ayuda.html">Abrir ayuda</a>
           </div>
         </div>
 
-        <div class="tarjeta-destacada">
-          <h3>¿Para qué sirve?</h3>
-          <ul>
-            <li>Control de alumnos y tutores.</li>
-            <li>Gestión de clases, horarios y profesorado.</li>
-            <li>Recibos, facturas y conceptos económicos.</li>
-            <li>Asistencia, fichajes y copias de seguridad.</li>
-          </ul>
+        <div class="hero-visual">
+          <div class="hero-logo-card">
+            <img src="imagenes/icono-danzamaster.png" alt="Icono Danza Master">
+          </div>
         </div>
       </div>
     </section>
@@ -60,107 +54,108 @@
         <h2>Qué es Danza Master</h2>
         <p class="texto-grande">
           Danza Master es un software de gestión creado para facilitar el trabajo diario
-          de una academia de danza. La web sirve como punto de presentación, documentación
-          básica y contenedor de ayuda para explicar el funcionamiento general del programa.
+          de una academia de danza. Esta web sirve como presentación del programa, contenedor
+          de información general y base para una futura ayuda más completa.
         </p>
 
         <div class="bloque-nota">
-          <strong>Primera versión de la web:</strong>
-          esta página es una base inicial. Más adelante se pueden añadir capturas reales,
-          manuales, vídeos, descargas, preguntas frecuentes o enlaces privados.
+          <strong>Versión inicial de la web:</strong>
+          esta página ya incluye logotipo, capturas del programa y una estructura preparada
+          para seguir ampliando la documentación.
         </div>
       </div>
     </section>
 
-    <section id="modulos" class="seccion fondo-suave">
+    <section id="capturas" class="seccion fondo-suave">
+      <div class="contenedor">
+        <h2>Capturas del programa</h2>
+        <p class="texto-grande">
+          Aquí se puede ir mostrando el funcionamiento real de Danza Master con capturas
+          actualizadas del programa. De momento he colocado una composición en forma de
+          hojas superpuestas para que la galería ya tenga presencia visual.
+        </p>
+
+        <div class="capturas-grid">
+          <div class="captura-apilada">
+            <div class="hoja hoja-1"></div>
+            <div class="hoja hoja-2"></div>
+            <figure class="hoja hoja-3">
+              <img src="imagenes/captura-panel-general.png" alt="Captura del panel general de Danza Master">
+            </figure>
+          </div>
+
+          <div class="captura-detalle">
+            <figure class="detalle-card">
+              <img src="imagenes/captura-detalle-asistencia.png" alt="Detalle de asistencia en Danza Master">
+            </figure>
+            <div class="detalle-texto">
+              <h3>Ejemplo de pantalla real</h3>
+              <p>
+                Esta captura muestra el panel general con la parrilla horaria, la clase activa
+                y el control de asistencia de alumnado.
+              </p>
+              <p>
+                Cuando quieras, aquí se pueden ir añadiendo más pantallas: alumnos, economía,
+                clases, profesorado o configuración.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="modulos" class="seccion">
       <div class="contenedor">
         <h2>Módulos principales</h2>
-
         <div class="grid">
           <article class="card">
             <h3>Alumnos</h3>
-            <p>Fichas de alumnos, datos familiares, tutores, autorizados, documentos y fotografías.</p>
+            <p>Fichas de alumnos, tutores, autorizados, documentos y fotografías.</p>
           </article>
-
           <article class="card">
             <h3>Clases</h3>
             <p>Organización de clases, packs, horarios, aulas, profesores y grupos activos.</p>
           </article>
-
           <article class="card">
             <h3>Economía</h3>
-            <p>Conceptos pendientes, cobros, recibos, facturas, descuentos y documentos emitidos.</p>
+            <p>Conceptos, cobros, recibos, facturas, descuentos y documentos emitidos.</p>
           </article>
-
           <article class="card">
             <h3>Profesorado</h3>
-            <p>Gestión de docentes, disciplinas, condiciones profesionales y panel de profesorado.</p>
+            <p>Gestión de docentes, disciplinas, paneles y condiciones profesionales.</p>
           </article>
-
           <article class="card">
             <h3>Asistencia</h3>
-            <p>Control de fichajes, incidencias, terminales y revisión de registros de asistencia.</p>
+            <p>Control de fichajes, incidencias y registros de asistencia.</p>
           </article>
-
           <article class="card">
             <h3>Copias de seguridad</h3>
-            <p>Sistema de copias manuales y automáticas para proteger los datos de la academia.</p>
+            <p>Protección de datos mediante copias manuales y automáticas.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="ayuda" class="seccion">
-      <div class="contenedor dos-columnas">
-        <div>
-          <h2>Ayuda y documentación</h2>
-          <p>
-            Esta web puede usarse como lugar de consulta para explicar procesos del programa:
-            altas de alumnos, activación de clases, emisión de recibos, creación de facturas,
-            copias de seguridad o configuración inicial.
-          </p>
-          <p>
-            De momento se incluye una página de ayuda sencilla como punto de partida.
-          </p>
-          <a class="boton principal" href="ayuda.html">Ir a la ayuda</a>
-        </div>
-
-        <div class="panel-lista">
-          <h3>Ideas para añadir después</h3>
-          <ul>
-            <li>Manual paso a paso.</li>
-            <li>Capturas del programa.</li>
-            <li>Vídeos cortos de uso.</li>
-            <li>Preguntas frecuentes.</li>
-            <li>Historial de versiones.</li>
-            <li>Enlace de descarga o instalación.</li>
-          </ul>
         </div>
       </div>
     </section>
 
     <section class="seccion fondo-oscuro">
-      <div class="contenedor">
-        <h2>Estado del proyecto</h2>
-        <p>
-          Danza Master es un proyecto en evolución. La web se irá ampliando conforme se
-          cierren nuevas funciones, documentación, instaladores y materiales de ayuda.
-        </p>
-      </div>
-    </section>
-
-    <section id="contacto" class="seccion">
-      <div class="contenedor">
-        <h2>Contacto</h2>
-        <p>
-          Esta sección queda preparada para añadir más adelante un correo, teléfono,
-          WhatsApp, formulario o enlace de soporte.
-        </p>
-
-        <div class="contacto-caja">
-          <p><strong>Danza Master</strong></p>
-          <p>Programa de gestión para academias de danza.</p>
-          <p class="texto-pequeno">Pendiente de añadir datos de contacto definitivos.</p>
+      <div class="contenedor dos-columnas">
+        <div>
+          <h2>Ayuda y documentación</h2>
+          <p>
+            La web también queda preparada para crecer como zona de ayuda:
+            manuales, preguntas frecuentes, capturas, tutoriales o notas de versiones.
+          </p>
+          <a class="boton principal boton-claro" href="ayuda.html">Ir a la ayuda</a>
+        </div>
+        <div class="lista-ideas">
+          <h3>Ideas para añadir después</h3>
+          <ul>
+            <li>Más capturas por módulos.</li>
+            <li>Manual paso a paso.</li>
+            <li>Vídeos cortos de uso.</li>
+            <li>Sección de instalación.</li>
+            <li>Historial de versiones.</li>
+            <li>Descarga o contacto.</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -174,7 +169,6 @@
   </footer>
 
   <button id="btnSubir" class="btn-subir" type="button" aria-label="Volver arriba">↑</button>
-
   <script src="script.js"></script>
 </body>
 </html>
